@@ -1,0 +1,27 @@
+1 rem = 16px
+
+di css bisa buat variabel
+    :root {
+        --primaryTextColor: #232e35;
+        --sectionPadding: 6rem 0;
+        --itemBorderRadius: 0.7rem;
+    }
+
+    cara buat ===> :root { --namaVariabel: value }
+    cara panggil ===> nama property : var(--namaVariabel);
+
+display : flex ===> agar isi konten jadi kesamping
+
+z-index : 99 ===> supaya content selalu muncul di paling atas
+
+position : fixed ===> supaya selalu muncul di layar dengan posisi yang sama
+
+grid-template-columns: 1fr 1fr; ===> akan membagi 2 kolom yang sama rata dari lebar yg di tentukan
+    1fr = 1 fraction
+
+letter-spacing: 0.5rem; ===> Jarak antar karakter
+
+text-transform: uppercase; ===> Membuat huruf menjadi besar semua
+
+
+formspree ===> plugin gratis untuk mengirimkan isi form ke email target
